@@ -1,0 +1,67 @@
+body
+{
+  background-color: black;
+  color:white;
+}
+#admin a
+{
+  position: absolute;
+  top:20px;
+  z-index:2;
+  right:30px;
+  border:1px solid white;
+  border-radius:10px;
+  padding:10px;
+  text-decoration:none;
+  color:white;
+}
+#admin a:hover
+{
+  position: absolute;
+  top:15px;
+  z-index:2;
+  right:30px;
+  border:1px solid white;
+  border-radius:10px;
+  padding:20px;
+  text-decoration:none;
+  color:white;
+  transition:.5s;
+}
+#admin a:active
+{
+  position: absolute;
+  top:15px;
+  z-index:2;
+  right:30px;
+  border:1px solid white;
+  border-radius:10px;
+  padding:20px;
+  text-decoration:none;
+  color:white;
+  transition:.5s;
+}
+table
+{
+  position: relative;
+  width:80%;
+  top:50px;
+  padding-top: 20px;
+  left:10%;
+}
+th
+{
+  width:5%;
+  border:1px solid white;
+}
+td
+{
+  width:5%;
+  padding-top:5px;
+  text-align: center;
+  border-bottom:1px solid white;
+}
+#student_edit
+{
+  color:white;
+}

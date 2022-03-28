@@ -1,0 +1,119 @@
+body
+{
+background-color: black;
+color:white;
+}
+#button
+{
+  padding: 10px;
+  position: absolute;
+  top:15px;
+  right:10px;
+}
+.logout
+{
+  border:1.5px solid white;
+  padding:7px 20px 7px 20px;
+  text-decoration:none;
+  border-radius: 20px;
+  color:white;
+}
+.logout:hover
+{
+  border:1.5px solid white;
+  padding:7px 20px 7px 20px;
+  text-decoration:none;
+  border-radius: 20px;
+  color:white;
+  opacity:0.7;
+}
+.logout:active
+{
+  border:1.5px solid white;
+  padding:7px 20px 7px 20px;
+  text-decoration:none;
+  border-radius: 20px;
+  color:white;
+  opacity:1;
+}
+#button:hover
+{
+  padding: 10px;
+  position: absolute;
+  top:17px;
+  right:10px;
+}
+#button:active
+{
+  padding: 10px;
+  position: absolute;
+  top:15px;
+  right:10px;
+}
+h1
+{
+  position: relative;
+  top:100px;
+}
+#button-box
+{
+  position: relative;
+  top:250px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#button-d
+{
+padding: 10px;
+position: relative;
+}
+.button-a
+{
+  border:1.5px solid white;
+  padding:28px 80px 28px 80px;
+  text-decoration:none;
+  border-radius: 20px;
+  color:white;
+}
+#button-d:hover
+{
+padding: 10px;
+position: relative;
+top:-3px;
+transition:.5s;
+}
+.button-a:hover
+{
+  padding:31.5px 90px 31.5px 90px;
+  border:1.5px solid white;
+  text-decoration:none;
+  border-radius: 20px;
+  color:white;
+  opacity:.7;
+  transition:.5s;
+}
+#button-d:active
+{
+padding: 10px;
+position: relative;
+}
+.button-a:active
+{
+  padding:28px 80px 28px 80px;
+  border:1.5px solid white;
+  text-decoration:none;
+  border-radius: 20px;
+  color:white;
+  opacity:1;
+  transition:.2s;
+}
+#col2
+{
+  position:relative;
+  display :flex;
+  flex-direction:row;
+  justify-content:space-around;
+  top:400px;
+}
